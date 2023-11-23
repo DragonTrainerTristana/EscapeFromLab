@@ -9,10 +9,10 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{B02BB651-6745-34D2-0FC7-6B5978C84E7B}</ProjectGuid>
+    <ProjectGuid>{F3B2F048-6CA4-45E5-BCFA-5860290FB83D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyName>Unity.ML-Agents.Extensions.Input</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <BaseDirectory>.</BaseDirectory>
@@ -58,7 +58,44 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.6f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Prefabs\QuarterView 3D Action BE5\ReadMe\Scripts\ReadmeBE5.cs" />
+    <Compile Include="C:\Users\sengh\OneDrive\Desktop\Github\MyUnity\ml-agents-release_15\com.unity.ml-agents.extensions\Runtime\Input\Adaptors\ButtonInputActionAdaptor.cs">
+      <Link>Runtime\Input\Adaptors\ButtonInputActionAdaptor.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\sengh\OneDrive\Desktop\Github\MyUnity\ml-agents-release_15\com.unity.ml-agents.extensions\Runtime\Input\InputActuatorComponent.cs">
+      <Link>Runtime\Input\InputActuatorComponent.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\sengh\OneDrive\Desktop\Github\MyUnity\ml-agents-release_15\com.unity.ml-agents.extensions\Runtime\Input\AssemblyInfo.cs">
+      <Link>Runtime\Input\AssemblyInfo.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\sengh\OneDrive\Desktop\Github\MyUnity\ml-agents-release_15\com.unity.ml-agents.extensions\Runtime\Input\Adaptors\DoubleInputActionAdaptor.cs">
+      <Link>Runtime\Input\Adaptors\DoubleInputActionAdaptor.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\sengh\OneDrive\Desktop\Github\MyUnity\ml-agents-release_15\com.unity.ml-agents.extensions\Runtime\Input\Adaptors\FloatInputActionAdaptor.cs">
+      <Link>Runtime\Input\Adaptors\FloatInputActionAdaptor.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\sengh\OneDrive\Desktop\Github\MyUnity\ml-agents-release_15\com.unity.ml-agents.extensions\Runtime\Input\IRLActionInputAdaptor.cs">
+      <Link>Runtime\Input\IRLActionInputAdaptor.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\sengh\OneDrive\Desktop\Github\MyUnity\ml-agents-release_15\com.unity.ml-agents.extensions\Runtime\Input\InputActionActuator.cs">
+      <Link>Runtime\Input\InputActionActuator.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\sengh\OneDrive\Desktop\Github\MyUnity\ml-agents-release_15\com.unity.ml-agents.extensions\Runtime\Input\InputActuatorEventContext.cs">
+      <Link>Runtime\Input\InputActuatorEventContext.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\sengh\OneDrive\Desktop\Github\MyUnity\ml-agents-release_15\com.unity.ml-agents.extensions\Runtime\Input\IInputActionAssetProvider.cs">
+      <Link>Runtime\Input\IInputActionAssetProvider.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\sengh\OneDrive\Desktop\Github\MyUnity\ml-agents-release_15\com.unity.ml-agents.extensions\Runtime\Input\Adaptors\Vector2InputActionAdaptor.cs">
+      <Link>Runtime\Input\Adaptors\Vector2InputActionAdaptor.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\sengh\OneDrive\Desktop\Github\MyUnity\ml-agents-release_15\com.unity.ml-agents.extensions\Runtime\Input\Adaptors\IntegerInputActionAdaptor.cs">
+      <Link>Runtime\Input\Adaptors\IntegerInputActionAdaptor.cs</Link>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\sengh\OneDrive\Desktop\Github\MyUnity\ml-agents-release_15\com.unity.ml-agents.extensions\Runtime\Input\Unity.ML-Agents.Extensions.Input.asmdef">
+      <Link>Runtime\Input\Unity.ML-Agents.Extensions.Input.asmdef</Link>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -310,14 +347,41 @@
     <Reference Include="UnityEditor.UnityConnectModule">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.6f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEditor.Graphs">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.6f1\Editor\Data\Managed\UnityEditor.Graphs.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.WindowsStandalone.Extensions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.6f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.YamlDotNet">
+      <HintPath>Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
+    </Reference>
     <Reference Include="ReportGeneratorMerged">
       <HintPath>Library\PackageCache\com.unity.testtools.codecoverage@1.2.4\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Plastic.Antlr3.Runtime">
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@2.2.0\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="unityplastic">
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@2.2.0\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Plastic.Newtonsoft.Json">
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@2.2.0\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="log4netPlastic">
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@2.2.0\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.IonicZip">
+      <HintPath>Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.8.0\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Google.Protobuf">
       <HintPath>Library\PackageCache\com.unity.barracuda@3.0.0\Barracuda\Runtime\Plugins\ProtoBuffer\Google.Protobuf.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.TextureAssets">
+      <HintPath>Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
     </Reference>
     <Reference Include="System.IO.Abstractions.TestingHelpers">
       <HintPath>C:\Users\sengh\OneDrive\Desktop\Github\MyUnity\ml-agents-release_15\com.unity.ml-agents\Plugins\System.IO.Abstractions.TestingHelpers.dll</HintPath>
@@ -697,137 +761,20 @@
     <Reference Include="System.Xml.Serialization">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.6f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.EditorCoroutines.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Burst.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Burst">
-      <HintPath>Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.PlasticSCM.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Barracuda.ONNX">
-      <HintPath>Library\ScriptAssemblies\Unity.Barracuda.ONNX.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Barracuda.MacBLAS">
-      <HintPath>Library\ScriptAssemblies\Unity.Barracuda.MacBLAS.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Timeline.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Shared.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
+    <Reference Include="Unity.Barracuda">
+      <HintPath>Library\ScriptAssemblies\Unity.Barracuda.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualScripting.Core">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualStudio.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualScripting.Core.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Barracuda">
-      <HintPath>Library\ScriptAssemblies\Unity.Barracuda.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Rider.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Sprite.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Barracuda.BurstBLAS">
-      <HintPath>Library\ScriptAssemblies\Unity.Barracuda.BurstBLAS.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Flow">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Flow.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Mathematics.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Barracuda.iOSBLAS">
-      <HintPath>Library\ScriptAssemblies\Unity.Barracuda.iOSBLAS.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Timeline">
-      <HintPath>Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
-      <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Performance.Profile-Analyzer.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TestTools.CodeCoverage.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">
-      <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.State.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Mathematics">
-      <HintPath>Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro">
-      <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Barracuda.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Barracuda.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.State">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VSCode.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Unity.ML-Agents.Extensions.Editor.csproj">
-      <Project>{D7356B50-533C-8234-196E-6B5CB8DA6091}</Project>
-      <Name>Unity.ML-Agents.Extensions.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.ML-Agents.Extensions.csproj">
-      <Project>{E1139488-01E0-0895-EF96-0419CF564A9D}</Project>
-      <Name>Unity.ML-Agents.Extensions</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.ML-Agents.Editor.csproj">
-      <Project>{D2AD6EE8-79BC-D524-14D7-34FADE8504F7}</Project>
-      <Name>Unity.ML-Agents.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.ML-Agents.Extensions.Editor.Input.csproj">
-      <Project>{705DDDEA-C955-BE44-D666-21A7F679A4A6}</Project>
-      <Name>Unity.ML-Agents.Extensions.Editor.Input</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.ML-Agents.csproj">
       <Project>{CDCC0B1B-7DCC-FFEF-F3E5-6E4312CEF31D}</Project>
       <Name>Unity.ML-Agents</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.ML-Agents.CommunicatorObjects.csproj">
-      <Project>{2AE51F9D-2D39-6FA1-ECFF-61CE4A42D5F9}</Project>
-      <Name>Unity.ML-Agents.CommunicatorObjects</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.ML-Agents.Extensions.Input.csproj">
-      <Project>{F3B2F048-6CA4-45E5-BCFA-5860290FB83D}</Project>
-      <Name>Unity.ML-Agents.Extensions.Input</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
